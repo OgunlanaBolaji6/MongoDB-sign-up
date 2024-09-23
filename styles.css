@@ -1,0 +1,19 @@
+.right{
+    background-image: url(./login_desktop.png);
+    background-size: cover;
+}
+
+h3{
+    color: #006849;
+}
+
+@media (max-width: 850px) {
+    .col-9 {
+        display: none;
+    }
+
+    .col-lg-3 {
+        width: 100%;
+        max-width: 100%;
+    }
+}
